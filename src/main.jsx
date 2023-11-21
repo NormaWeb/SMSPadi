@@ -18,21 +18,24 @@ const router = createBrowserRouter([
     element: <App />,
   },
   {
-    path: '/contact', // Make sure to start with a slash
+    path: '/contact',
     element: <Contact />,
   },
   {
-    path: '/signin', // Make sure to start with a slash
+    path: '/signin',
     element: <SignIn />,
   },
   {
-    path: '/signup', // Make sure to start with a slash
+    path: '/signup',
     element: <SignUp />,
   },
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    {/* Wrap your entire application with RouterProvider */}
+    <RouterProvider router={router}>
+      <App />
+    </RouterProvider>
   </React.StrictMode>,
 );
