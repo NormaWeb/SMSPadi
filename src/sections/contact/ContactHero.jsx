@@ -20,8 +20,8 @@ const ContactHero = () => {
               <img src={Icon1} alt="telegram" className="object-contain w-16 h-16 md:w-20 md:h-20 mb-2" />
 
               <div className="">
-                <h2 className="text-lg md:text-xl font-bold mb-2">Telegram Channel</h2>
-                <p className="text-sm md:text-base">Get updates and news on our channel.</p>
+                <h2 className="text-lg md:text-xl font-bold mt-5">Telegram Channel</h2>
+                <p className="text-sm md:text-base mt-5 mb-5">Get updates and news on our channel.</p>
                 <a href="" className="text-yellow underline font-bold">Join Now</a>
               </div>
             </div>
@@ -35,8 +35,8 @@ const ContactHero = () => {
               <img src={Icon2} alt="Instagram" className="object-contain w-16 h-16 md:w-20 md:h-20 mb-2" />
 
               <div className="">
-                <h2 className="text-lg md:text-xl font-bold mb-2">Instagram</h2>
-                <p className="text-sm md:text-base">Chat with support via our Instagram handle.</p>
+                <h2 className="text-lg md:text-xl font-bold mt-5">Instagram</h2>
+                <p className="text-sm md:text-base mt-5 mb-5">Chat with support via our Instagram handle.</p>
                 <a href="" className="text-yellow underline font-bold">Chat Now</a>
               </div>
             </div>
@@ -50,8 +50,8 @@ const ContactHero = () => {
               <img src={Icon3} alt="Twitter" className="object-contain w-16 h-16 md:w-20 md:h-20 mb-2" />
 
               <div className="">
-                <h2 className="text-lg md:text-xl font-bold mb-2">Twitter</h2>
-                <p className="text-sm md:text-base">Stay updated with the latest development.</p>
+                <h2 className="text-lg md:text-xl font-bold mt-5">Twitter</h2>
+                <p className="text-sm md:text-base mt-5 mb-5">Stay updated with the latest development.</p>
                 <a href="" className="text-yellow underline font-bold">Follow Now</a>
               </div>
             </div>
@@ -62,7 +62,7 @@ const ContactHero = () => {
 
         {/* Column Two */}
 
-        <div className="w-full sm:w-1/2 md:w-2/3 p-4 sm:p-8 lg:p-12 xl:p-16">
+        <div className="w-full sm:w-1/2 md:w-2/3 px-4 sm:px-8 lg:px-12 xl:px-16 ">
 
           <div className="mx-auto mt-10 p-6 bg-white rounded-3xl shadow-md">
             <form>
@@ -110,7 +110,7 @@ const ContactHero = () => {
 
               <button
                 type="submit"
-                className="bg-yellow mt-5 mb-5 py-2 px-4 rounded-md hover:bg-light focus:outline-none"
+                className="bg-yellow mt-10 mb-10 py-2 px-4 rounded-md hover:bg-light focus:outline-none"
               >
                 Send Message
               </button>
