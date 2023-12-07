@@ -10,7 +10,7 @@ import FAQ from './sections/FAQ';
 import Mainlayout from './layouts/Mainlayout';
 
 
-const App = () => (
+const Home = () => (
   <Mainlayout>
 
     <section className="padding">
@@ -44,7 +44,7 @@ const App = () => (
   </Mainlayout>
 );
 
-export default App
+export default Home
 
 
 
