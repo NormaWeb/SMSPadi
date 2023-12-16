@@ -7,7 +7,7 @@ import Icon3 from '../../assets/twitter.png';
 const ContactHero = () => {
   return (
     <section className="bg-yellow rounded-3xl min-h-screen py-10 md:py-20">
-      <h1 className="text-4xl md:text-6xl mb-4 text-center leading-tight max-sm:font-semibold max-sm:text-2xl">Get in touch for queries, <br />assistance and more.</h1>
+      <h1 className="text-4xl md:text-6xl mb-4 text-center leading-tight max-sm:font-semibold max-sm:text-2xl font-semibold">Get in touch for queries, <br />assistance and more.</h1>
       <p className='text-lg md:text-2xl text-center max-sm:text-sm'>Go to any of our social media pages and get in touch with our support <br /> team. They are 24/7 ready to help you.</p>
 
       <div className="py-10 md:py-20 px-4 sm:px-8 lg:px-16 xl:px-20 justify-around items-stretch flex flex-wrap">

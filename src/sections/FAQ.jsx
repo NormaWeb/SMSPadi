@@ -32,7 +32,7 @@ const Accordion = () => {
 
   return (
     <div className="">
-      <h1 className="text-3xl mb-4 text-center max-sm:font-semibold max-sm:text-2xl">Frequenty Asked Questions</h1>
+      <h1 className="text-3xl mb-4 text-center max-sm:font-semibold max-sm:text-2xl font-semibold">Frequenty Asked Questions</h1>
       <div className="flex flex-wrap">
         {questions.map((question, index) => (
           <div key={index} className="w-full sm:w-1/2 p-4">

@@ -13,7 +13,7 @@ const Smspadi = () => {
         </div>
 
         <div className="flex-1">
-          <h1 className="text-3xl mt-20 max-sm:font-semibold max-sm:text-2xl">Using Smspadi is as easy as 1,2,3...</h1>
+          <h1 className="text-3xl mt-20 max-sm:font-semibold max-sm:text-2xl font-semibold">Using Smspadi is as easy as 1,2,3...</h1>
 
           <h3 className="text-2xl font-semibold mt-10 max-sm:text-xl">1. Get a virtual phone number</h3>
           <p className="text-base mt-5 max-sm:text-sm">After registration, select the country and the service you want and click on the "Buy" button to get the number.</p>

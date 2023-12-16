@@ -7,7 +7,7 @@ const Verify = () => {
       <div className="flex justify-between items-center max-lg:flex-col gap-24 w-full max-container">
 
         <div className="flex-1">
-          <h1 className="text-3xl max-sm:font-semibold max-sm:text-2xl"> Verify any social media <br /> platform instantly.  </h1>
+          <h1 className="text-3xl max-sm:font-semibold max-sm:text-2xl font-semibold"> Verify any social media <br /> platform instantly.  </h1>
 
           <p className=" text-base font-montserrat mt-8 max-sm:text-sm " > Receive verification codes without privacy <br /> worries or hassle. Register now to get started.</p>
 
