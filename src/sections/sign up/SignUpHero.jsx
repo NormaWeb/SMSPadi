@@ -21,7 +21,7 @@ const SignUpHero = () => {
 
   return (
     <section className="bg-yellow rounded-3xl min-h-screen py-20">
-      <h1 className="text-6xl mb-4 text-center">Sign Up</h1>
+      <h1 className="text-6xl mb-4 text-center max-sm:font-semibold max-sm:text-2xl">Sign Up</h1>
       <div className="max-w-xl mx-auto mt-10 p-6 bg-white rounded-xl shadow-md">
         <form onSubmit={handleSubmit}>
           <div className="mb-5">

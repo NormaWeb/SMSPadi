@@ -7,8 +7,8 @@ import Icon3 from '../../assets/twitter.png';
 const ContactHero = () => {
   return (
     <section className="bg-yellow rounded-3xl min-h-screen py-10 md:py-20">
-      <h1 className="text-4xl md:text-6xl mb-4 text-center leading-tight">Get in touch for queries, <br />assistance and more.</h1>
-      <p className='text-lg md:text-2xl text-center'>Go to any of our social media pages and get in touch with our support <br /> team. They are 24/7 ready to help you.</p>
+      <h1 className="text-4xl md:text-6xl mb-4 text-center leading-tight max-sm:font-semibold max-sm:text-2xl">Get in touch for queries, <br />assistance and more.</h1>
+      <p className='text-lg md:text-2xl text-center max-sm:text-sm'>Go to any of our social media pages and get in touch with our support <br /> team. They are 24/7 ready to help you.</p>
 
       <div className="py-10 md:py-20 px-4 sm:px-8 lg:px-16 xl:px-20 justify-around items-stretch flex flex-wrap">
         <div className="w-full sm:w-1/2 md:w-1/3 p-4 max-w-md mx-auto">
@@ -20,8 +20,8 @@ const ContactHero = () => {
               <img src={Icon1} alt="telegram" className="object-contain w-16 h-16 md:w-20 md:h-20 mb-2" />
 
               <div className="">
-                <h2 className="text-lg md:text-xl font-bold mt-5">Telegram Channel</h2>
-                <p className="text-sm md:text-base mt-5 mb-5">Get updates and news on our channel.</p>
+                <h2 className="text-lg md:text-xl font-bold mt-5 max-sm:font-semibold max-sm:text-xl">Telegram Channel</h2>
+                <p className="text-sm md:text-base mt-5 mb-5 max-sm:text-sm">Get updates and news on our channel.</p>
                 <a href="" className="text-yellow underline font-bold">Join Now</a>
               </div>
             </div>
@@ -35,8 +35,8 @@ const ContactHero = () => {
               <img src={Icon2} alt="Instagram" className="object-contain w-16 h-16 md:w-20 md:h-20 mb-2" />
 
               <div className="">
-                <h2 className="text-lg md:text-xl font-bold mt-5">Instagram</h2>
-                <p className="text-sm md:text-base mt-5 mb-5">Chat with support via our Instagram handle.</p>
+                <h2 className="text-lg md:text-xl font-bold mt-5 max-sm:font-semibold max-sm:text-xl">Instagram</h2>
+                <p className="text-sm md:text-base mt-5 mb-5 max-sm:text-sm">Chat with support via our Instagram handle.</p>
                 <a href="" className="text-yellow underline font-bold">Chat Now</a>
               </div>
             </div>
@@ -50,8 +50,8 @@ const ContactHero = () => {
               <img src={Icon3} alt="Twitter" className="object-contain w-16 h-16 md:w-20 md:h-20 mb-2" />
 
               <div className="">
-                <h2 className="text-lg md:text-xl font-bold mt-5">Twitter</h2>
-                <p className="text-sm md:text-base mt-5 mb-5">Stay updated with the latest development.</p>
+                <h2 className="text-lg md:text-xl font-bold mt-5 max-sm:font-semibold max-sm:text-xl">Twitter</h2>
+                <p className="text-sm md:text-base mt-5 mb-5 max-sm:text-sm">Stay updated with the latest development.</p>
                 <a href="" className="text-yellow underline font-bold">Follow Now</a>
               </div>
             </div>

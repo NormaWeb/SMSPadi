@@ -32,13 +32,12 @@ const Accordion = () => {
 
   return (
     <div className="">
-      <h1 className="text-3xl mb-4 text-center">Frequenty Asked Questions</h1>
+      <h1 className="text-3xl mb-4 text-center max-sm:font-semibold max-sm:text-2xl">Frequenty Asked Questions</h1>
       <div className="flex flex-wrap">
         {questions.map((question, index) => (
           <div key={index} className="w-full sm:w-1/2 p-4">
-            {/* Button to toggle the box */}
             <div
-              className="border border-black p-4 rounded-lg cursor-pointer text-2xl"
+              className="border border-black p-4 rounded-lg cursor-pointer text-2xl max-sm:text-sm"
               onClick={() => toggleAccordion(index)}
             >
               <h2>{question}</h2>
@@ -46,7 +45,7 @@ const Accordion = () => {
 
             {/* Content for the box, conditionally rendered based on isOpen state */}
             {isOpen[index] && (
-              <div className="border border-black p-4 rounded-lg mt-2 text-2xl">
+              <div className="border border-black p-4 rounded-lg mt-2 text-2xl max-sm:text-sm">
                 <p>{answers[index]}</p>
               </div>
             )}
