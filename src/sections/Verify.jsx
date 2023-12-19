@@ -3,33 +3,37 @@ import Button from "../components/Button";
 
 const Verify = () => {
   return (
-    <section id="Choose" className="">
-      <div className="flex justify-between items-center max-lg:flex-col gap-24 w-full max-container">
+    <section id="Choose" className="py-8 lg:py-10">
+      <div className="max-container mx-auto flex flex-col lg:flex-row items-center lg:gap-24">
+        <div className="lg:flex-1 lg:pr-6">
+          <h1 className="text-3xl max-sm:text-2xl font-semibold mb-3">
+            Verify any social media platform instantly.
+          </h1>
 
-        <div className="flex-1">
-          <h1 className="text-3xl max-sm:font-semibold max-sm:text-2xl font-semibold"> Verify any social media <br /> platform instantly.  </h1>
+          <p className="text-base font-montserrat mt-2 mb-2 max-sm:text-sm">
+            Receive verification codes without privacy worries or hassle. Register now to get started.
+          </p>
 
-          <p className=" text-base font-montserrat mt-8 max-sm:text-sm " > Receive verification codes without privacy <br /> worries or hassle. Register now to get started.</p>
-
-          <div className="flex max-sm:justify-end items-center max-sm:w-full mt-8 text-white">
-                    <Button label="Get Started" 
-                    backgroundColor='bg-black' 
-                    />
-                </div>
+          <div className="flex max-sm:justify-end items-center w-full mt-5 lg:mt-8 text-white">
+            <Button
+              label="Get Started"
+              backgroundColor='bg-black'
+            />
+          </div>
         </div>
 
-        <div className="flex-1">
-          <img src={Image1} alt="Choose Country"
-            width={570} height={522}
+        <div className="lg:flex-1 lg:pl-6">
+          <img
+            src={Image1}
+            alt="Choose Country"
+            width={570}
+            height={522}
             className="object-contain"
           />
         </div>
-
-
-
       </div>
-    </section >
-  )
-}
+    </section>
+  );
+};
 
-export default Verify
+export default Verify;

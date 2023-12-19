@@ -11,7 +11,7 @@ const Getstarted = () => {
                 <h1 className='text-primary text-3xl max-sm:font-semibold max-sm:text-2xl font-semibold'>Getting Started is as easy as 1,2,3...</h1>
             </div>
 
-            <div className="flex max-lg:flex-col gap-10 mt-10">
+            <div className="flex max-lg:flex-col gap-10 mt-10 max-sm:items-center">
 
                 <div className="flex flex-1 flex-col ">
                     <img src={Icon1} alt="Create an account"

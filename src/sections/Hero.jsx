@@ -4,11 +4,15 @@ import HeroImage from '../assets/Hero Image.png';
 
 const Hero = () => {
     return (
-        <section className="bg-light min-h-screen py-20 rounded-3xl">
+        <section className="bg-light min-h-screen py-20 rounded-3xl px-4 md:px-0 md:mb-20">
             <div className="text-center">
-                <h1 className="text-6xl max-sm:text-2xl max-sm:font-semibold leading-tight font-palanquin"> Get Virtual phone numbers to <br /> receive SMS online. </h1>
+                <h1 className="text-6xl max-sm:text-2xl max-sm:font-semibold leading-tight font-palanquin">
+                    Get Virtual phone numbers to <br /> receive SMS online.
+                </h1>
 
-                <p className="text-2xl max-sm:text-sm mt-2 mb-5">SMSpadi enables you to register and verify social networks (WhatsApp, Telegram, <br /> Facebook etc.), marketplaces (Alibaba, Amazon etc.), exchanges (Binance, Paypal <br /> etc.), and online services without spam and disclosure of personal data.</p>
+                <p className="text-2xl max-sm:text-sm mt-2 mb-5">
+                    SMSpadi enables you to register and verify social networks (WhatsApp, Telegram, <br /> Facebook etc.), marketplaces (Alibaba, Amazon etc.), exchanges (Binance, Paypal <br /> etc.), and online services without spam and disclosure of personal data.
+                </p>
             </div>
 
             <div className='flex flex-1 items-center justify-center max-sm:flex-col gap-5 p-2'>
@@ -29,13 +33,11 @@ const Hero = () => {
                     src={HeroImage}
                     alt="Dashboard"
                     width={800}
-                    className="object-contain mt-10"
+                    className="object-contain mt-10 md:mt-0 md:-mb-20" 
                 />
             </div>
-
         </section>
-    )
-}
+    );
+};
 
 export default Hero;
-

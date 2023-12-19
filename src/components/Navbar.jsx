@@ -18,8 +18,8 @@ const Nav = () => {
         <header className="top-0 z-10">
             <div className="container mx-auto px-4 lg:px-20 py-4">
                 <div className={`flex items-center justify-between ${mobileMenu ? 'flex-col items-start' : 'items-start'}`}>
-                    <div className="container flex mx-auto gap-20 space-x-10 items-center lg:flex-row">
-                        <a href="#" className="text-3xl font-bold mb-4 lg:mb-0 lg:mr-16">
+                    <div className="container flex mx-auto gap-20 space-x-10 justify-between lg:flex-row">
+                        <a href="#" className="text-3xl font-bold mb-4 lg:mb-0 lg:mr-16 max-sm:text-2xl">
                             SMS<span className='text-yellow'>Padi</span>
                         </a>
 
@@ -64,3 +64,4 @@ const Nav = () => {
 };
 
 export default Nav;
+
